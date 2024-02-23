@@ -56,7 +56,7 @@ const AboutPage = () => {
                     impact society. Eager to embark on a journey of continuous learning
                     and growth.
                 </p>
-                <i>"Do It To Know It."</i>
+                <i>Do It To Know It.</i>
 
 
             </div>
@@ -89,7 +89,7 @@ const AboutPage = () => {
 
                 <div className="flex flex-row gap-10 flex-wrap py-10">
                     {items.map((item) => (
-                        <motion.div variants={fadeInAnimationVariants} initial="initial" whileInView="animate" custom={item.index} viewport={{once:true}}>
+                        <motion.div key={item} variants={fadeInAnimationVariants} initial="initial" whileInView="animate" custom={item.index} viewport={{once:true}}>
                             <DynamicElement key={item.imageUrl} imageUrl={item.imageUrl} heading={item.heading} />
                         </motion.div>
                     ))}
