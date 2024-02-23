@@ -89,7 +89,7 @@ const PortfollioPage = () => {
             <motion.div className="flex flex-col gap-10 lg:flex" >
                 <div className="flex flex-row gap-10 flex-wrap justify-center items-center">
                 {items.map((item) => (
-                    <motion.div  variants={fadeInAnimationVariants} initial="initial" whileInView="animate" viewport={{once:true}} custom={item.index} >
+                    <motion.div  key={item} variants={fadeInAnimationVariants} initial="initial" whileInView="animate" viewport={{once:true}} custom={item.index} >
                         <ProjectDynamicElement key={item.imageUrl} imageUrl={item.imageUrl} heading={item.heading} />
                     </motion.div>
                 ))}
