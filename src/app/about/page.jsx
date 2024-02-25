@@ -51,7 +51,7 @@ const AboutPage = () => {
                     passionate about leveraging technology to solve complex problems
                     and drive innovation. Possessing a relentless work ethic and a thirst
                     for knowledge, I am committed to honing my skills and making
-                    meaningful contributions in the eld. I am dedicated to pushing the
+                    meaningful contributions. I am dedicated to pushing the
                     boundaries of what is possible and creating solutions that positively
                     impact society. Eager to embark on a journey of continuous learning
                     and growth.
